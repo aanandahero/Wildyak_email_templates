@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+  <!-- DARK MODE OFF: tells Apple Mail / iOS Mail / Outlook to keep the light design -->
+  <meta name="color-scheme" content="light only">
+  <meta name="supported-color-schemes" content="light only">
+  <title>Welcome to The Pack</title>
+
+  <!--[if mso]>
+  <noscript><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml></noscript>
+  <style>table,td,div,p,a,span{font-family:Arial,Helvetica,sans-serif !important;}</style>
+  <![endif]-->
+
+  <style>
+  /* Font: Arial everywhere (inline on every element) - installed on all devices and mail clients. */
+
+  /* DARK MODE OFF (1/4): declare light only */
+  :root {
+    color-scheme: light only;
+    supported-color-schemes: light only;
+  }
+
+  html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: #FDF7E8;
+  }
+
+  body {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  table, td {
+    border-collapse: collapse;
+    mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt;
+  }
+
+  img {
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    display: block;
+    height: auto;
+    line-height: 100%;
+    -ms-interpolation-mode: bicubic;
+  }
+
+  a { text-decoration: none; }
+
+  /* Stop iOS / Gmail from recolouring auto-detected links */
+  a[x-apple-data-detectors],
+  .x-gmail-data-detectors,
+  .x-gmail-data-detectors * {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+  }
+
+  /* DARK MODE OFF (2/4): if a client switches to dark, re-force every original colour.
+     bg-* = backgrounds, t-* = text colours (classes are on the elements below). */
+  @media (prefers-color-scheme: dark) {
+    html, body, .bg-cream { background-color: #FDF7E8 !important; }
+    .bg-navy   { background-color: #03314B !important; }
+    .bg-coral  { background-color: #F47C5C !important; }
+    .bg-white  { background-color: #FFFFFF !important; }
+    .bg-yellow { background-color: #FDC13A !important; }
+    .t-blue  { color: #00407F !important; }
+    .t-white { color: #FFFFFF !important; }
+    .t-sky   { color: #3EB6F3 !important; }
+  }
+
+  /* DARK MODE OFF (3/4): Outlook.com / Outlook apps use these attribute selectors */
+  [data-ogsc] .t-blue  { color: #00407F !important; }
+  [data-ogsc] .t-white { color: #FFFFFF !important; }
+  [data-ogsc] .t-sky   { color: #3EB6F3 !important; }
+  [data-ogsb] .bg-cream  { background-color: #FDF7E8 !important; }
+  [data-ogsb] .bg-navy   { background-color: #03314B !important; }
+  [data-ogsb] .bg-coral  { background-color: #F47C5C !important; }
+  [data-ogsb] .bg-white  { background-color: #FFFFFF !important; }
+  [data-ogsb] .bg-yellow { background-color: #FDC13A !important; }
+
+  /* The layout is fluid by default (width:100%; max-width:600px), so it already
+     works in clients that ignore media queries. These only fine-tune type. */
+  @media only screen and (max-width: 620px) {
+    .container { width: 100% !important; max-width: 100% !important; }
+    .fluid { width: 100% !important; height: auto !important; }
+
+    .headline { font-size: 32px !important; line-height: 40px !important; }
+    .lead     { font-size: 14px !important; line-height: 21px !important; letter-spacing: 0.3px !important; }
+    .copy     { font-size: 16px !important; line-height: 24px !important; }
+    .sub-head { font-size: 26px !important; line-height: 32px !important; }
+    .code     { font-size: 24px !important; line-height: 30px !important; }
+    .pad-text { padding-left: 20px !important; padding-right: 20px !important; }
+    .pad-coupon { padding-left: 14px !important; padding-right: 14px !important; }
+
+    .chews { width: 64px !important; }
+    .paw   { width: 22px !important; }
+    .btn-a { font-size: 14px !important; }
+
+    .foot { font-size: 14px !important; line-height: 22px !important; }
+    .site { font-size: 16px !important; }
+  }
+
+  @media only screen and (max-width: 380px) {
+    .headline { font-size: 28px !important; line-height: 36px !important; }
+    .chews { width: 52px !important; }
+    .btn-a { font-size: 13px !important; letter-spacing: 0 !important; }
+  }
+</style>
+</head>
+
+<body class="bg-cream" bgcolor="#FDF7E8" style="margin:0;padding:0;background-color:#FDF7E8;">
+
+  <!--
+  CONFIG: links and template variables for this email
+    Header logo ........ https://wildyaktrading.com/
+    Shop Yak Chews ..... https://wildyaktrading.com/   (swap for a collection page if you like)
+    X / Instagram / Facebook / TikTok ... handles below (verify)
+    Email .............. mailto:support@wildyaktrading.com
+    Unsubscribe ........ {{{RESEND_UNSUBSCRIBE_URL}}}   (Klaviyo: {% unsubscribe_url %}, Shopify Email: {{ unsubscribe_url }})
+    Coupon box ......... intentionally NOT a link (code stays selectable)
+
+    DARK MODE OFF (4/4): every coloured box also has a solid-colour background-image
+    (linear-gradient) - this stops Gmail Android from inverting backgrounds.
+  -->
+
+  <!-- Hidden preheader -->
+  <div style="display:none;font-size:1px;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden;mso-hide:all;color:#FDF7E8;">
+    You&rsquo;re now part of the pack. Use code WILDYAK5 for 5% off your first order.
+    &#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;
+  </div>
+
+  <table role="presentation" class="bg-cream" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FDF7E8" style="width:100%;background-color:#FDF7E8;background-image:linear-gradient(#FDF7E8,#FDF7E8);">
+    <tr>
+      <td align="center" class="bg-cream" bgcolor="#FDF7E8" style="padding:0;background-color:#FDF7E8;background-image:linear-gradient(#FDF7E8,#FDF7E8);">
+
+        <!--[if mso]><table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><![endif]-->
+<table role="presentation" class="container bg-cream" width="600" align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#FDF7E8" style="width:100%;max-width:600px;margin:0 auto;background-color:#FDF7E8;background-image:linear-gradient(#FDF7E8,#FDF7E8);">
+          <!-- 1. HEADER: mountains + logo (LINK: website) -->
+          <tr>
+            <td style="line-height:0;font-size:0;">
+              <a href="https://wildyaktrading.com/" target="_blank" rel="noopener" style="display:block;">
+                <img src="https://cdn.shopify.com/s/files/1/0832/2983/5503/files/Vector_2.png?v=1794296233" class="fluid" width="600" height="173" alt="Wild Yak Trading Co." style="display:block;width:100%;max-width:600px;height:auto;">
+              </a>
+            </td>
+          </tr>
+
+
+          <!-- 3. HERO (LINK: website) -->
+          <tr>
+            <td style="line-height:0;font-size:0;">
+              <a href="https://wildyaktrading.com/" target="_blank" rel="noopener" style="display:block;">
+                <img src="https://cdn.shopify.com/s/files/1/0832/2983/5503/files/Coupon_hero.webp?v=1794294260" class="fluid" width="600" height="350" alt="Five happy dogs in front of snowy mountains, with a pug holding a yak cheese chew" style="display:block;width:100%;max-width:600px;height:auto;">
+              </a>
+            </td>
+          </tr>
+
+          <!-- 4. THANK-YOU COPY -->
+          <tr>
+            <td class="pad-text t-blue" align="center" style="padding:6px 28px 0 28px;font-family:Arial,Helvetica,sans-serif;color:#00407F;">
+              <p class="lead t-blue" style="margin:0 0 14px 0;font-size:17px;line-height:24px;font-weight:600;text-transform:uppercase;color:#00407F;">Thanks for subscribing to <br>Wild Yak Trading Co.</p>
+              <p class="copy t-blue" style="margin:0;font-size:18px;line-height:26px;color:#00407F;">You&rsquo;re now part of a community that loves happy dogs and Himalayan goodness.</p>
+            </td>
+          </tr>
+
+          <!-- 5. COUPON (live text, NOT a link) -->
+          <tr>
+            <td class="pad-coupon" style="padding:22px 24px 0 24px;">
+              <table role="presentation" class="bg-coral" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#F47C5C" style="width:100%;background-color:#F47C5C;background-image:linear-gradient(#F47C5C,#F47C5C);border-radius:24px;">
+                <tr>
+                  <td style="padding:10px;">
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;border:2px dashed #FFFFFF;border-radius:18px;">
+                      <tr>
+                        <td align="center" class="t-white" style="padding:16px 14px 18px 14px;font-family:Arial,Helvetica,sans-serif;color:#FFFFFF;">
+                          <p class="t-white" style="margin:0 0 12px 0;font-size:15px;line-height:20px;font-weight:600;text-transform:uppercase;color:#FFFFFF;">Enjoy your welcome discount</p>
+                          <table role="presentation" class="bg-white" width="88%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#FFFFFF" style="width:88%;background-color:#FFFFFF;background-image:linear-gradient(#FFFFFF,#FFFFFF);border-radius:10px;">
+                            <tr><td align="center" class="code t-blue" style="padding:8px 10px;font-family:Arial,Helvetica,sans-serif;font-size:28px;line-height:34px;font-weight:600;letter-spacing:0.5px;color:#00407F;">WILDYAK5</td></tr>
+                          </table>
+                          <p class="t-white" style="margin:12px 0 4px 0;font-size:14px;line-height:20px;color:#FFFFFF;">Use this code at checkout for</p>
+                          <p class="t-white" style="margin:0;font-size:22px;line-height:28px;font-weight:800;color:#FFFFFF;">5% OFF</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- 6. SHOP ROW: chews + button -->
+          <tr>
+            <td style="padding:18px 12px 0 12px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+                <tr>
+                  <td width="22%" align="center" valign="middle">
+                    <img src="https://cdn.shopify.com/s/files/1/0832/2983/5503/files/chews-left.webp?v=1794209267" class="chews" width="100" alt="" style="display:block;width:100px;max-width:100%;height:auto;margin:0 auto;">
+                  </td>
+                  <td width="56%" align="center" valign="middle">
+                
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0 auto;">
+                      <tr>
+                        <td align="center" class="bg-yellow" bgcolor="#FDC13A" style="background-color:#FDC13A;background-image:linear-gradient(#FDC13A,#FDC13A);border-radius:26px;box-shadow:0 3px 7px rgba(0,64,127,0.25);">
+                          <a class="btn-a t-blue" href="https://wildyaktrading.com/" target="_blank" rel="noopener"
+                             style="display:block;padding:15px 22px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:18px;font-weight:800;letter-spacing:0.4px;color:#00407F;text-decoration:none;text-transform:uppercase;white-space:nowrap;border-radius:26px;">
+                            Shop Yak Chews&nbsp;&rarr;
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                    <!--<![endif]-->
+                  </td>
+                  <td width="22%" align="center" valign="middle">
+                    <img src="https://cdn.shopify.com/s/files/1/0832/2983/5503/files/chews-right.webp?v=1794209266" class="chews" width="100" alt="" style="display:block;width:100px;max-width:100%;height:auto;margin:0 auto;">
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- 7. TEXT UNDER BUTTON -->
+          <tr>
+            <td class="pad-text" align="center" style="padding:14px 32px 0 32px;font-family:Arial,Helvetica,sans-serif;">
+              <p class="copy t-blue" style="margin:0;font-size:18px;line-height:26px;color:#00407F;">Your dog&rsquo;s next favorite chew is just a click away.</p>
+            </td>
+          </tr>
+
+     
+
+          <!-- 9. FOOTER ART (LINK: website), ends on solid navy #03314B -->
+          <tr>
+            <td class="bg-navy" bgcolor="#03314B" style="background-color:#03314B;background-image:linear-gradient(#03314B,#03314B);line-height:0;font-size:0;">
+              <a href="https://wildyaktrading.com/" target="_blank" rel="noopener" style="display:block;">
+                <img src="https://cdn.shopify.com/s/files/1/0832/2983/5503/files/Vector_1.png?v=1794295676" class="fluid" width="600" height="262" alt="Wild Yak Trading Co." style="display:block;width:100%;max-width:600px;height:auto;">
+              </a>
+            </td>
+          </tr>
+
+          <!-- 10. FOOTER -->
+          <tr>
+            <td align="center" class="bg-navy t-white" bgcolor="#03314B" style="background-color:#03314B;background-image:linear-gradient(#03314B,#03314B);padding:0 20px 34px 20px;font-family:Arial,Helvetica,sans-serif;color:#FFFFFF;">
+
+              <p class="site t-white" style="margin:0 0 10px 0;font-size:17px;line-height:24px;font-weight:600;color:#FFFFFF;">www.wildyaktrading.com</p>
+
+              <!-- Social icons -->
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center">
+                <tr>
+                  <td style="padding:8px 10px;"><a href="https://www.instagram.com/wildyaktradingco" target="_blank" rel="noopener"><img src="https://cdn.shopify.com/s/files/1/0832/2983/5503/files/icon-instagram.webp?v=1794209270" width="28" height="28" alt="Wild Yak Trading Co. on Instagram" style="display:block;width:28px;height:28px;"></a></td>
+                  <td style="padding:8px 10px;"><a href="https://www.facebook.com/wildyaktrading" target="_blank" rel="noopener"><img src="https://cdn.shopify.com/s/files/1/0832/2983/5503/files/icon-facebook.webp?v=1794209272" width="28" height="28" alt="Wild Yak Trading Co. on Facebook" style="display:block;width:28px;height:28px;"></a></td>
+                  <td style="padding:8px 10px;"><a href="https://x.com/wildyaktrading" target="_blank" rel="noopener"><img src="https://cdn.shopify.com/s/files/1/0832/2983/5503/files/icon-x.webp?v=1794209269" width="28" height="28" alt="Wild Yak Trading Co. on X" style="display:block;width:28px;height:28px;"></a></td>
+                  <td style="padding:8px 10px;"><a href="https://www.tiktok.com/@wildyaktrading" target="_blank" rel="noopener"><img src="https://cdn.shopify.com/s/files/1/0832/2983/5503/files/icon-tiktok.webp?v=1794209270" width="28" height="28" alt="Wild Yak Trading Co. on TikTok" style="display:block;width:28px;height:28px;"></a></td>
+                </tr>
+              </table>
+
+              <table role="presentation" width="50%" cellpadding="0" cellspacing="0" border="0" align="center" style="width:50%;margin:10px auto 14px auto;">
+                <tr><td height="1" style="height:1px;font-size:1px;line-height:1px;border-top:1px solid #FFFFFF;">&nbsp;</td></tr>
+              </table>
+
+              <p class="foot t-white" style="margin:0 0 6px 0;font-size:13px;line-height:20px;color:#FFFFFF;">
+                Don't want these emails?
+                <a href="{{{RESEND_UNSUBSCRIBE_URL}}}" class="t-sky" target="_blank" rel="noopener" style="color:#3EB6F3;text-decoration:underline;">Unsubscribe</a>
+              </p>
+              <p class="foot t-white" style="margin:0 0 6px 0;font-size:13px;line-height:20px;color:#FFFFFF;">
+                <a href="mailto:support@wildyaktrading.com" class="t-white" style="color:#FFFFFF;text-decoration:none;">support@wildyaktrading.com</a>
+              </p>
+              <p class="foot t-white" style="margin:0;font-size:13px;line-height:20px;color:#FFFFFF;">
+                <span class="t-white" style="color:#FFFFFF;text-decoration:none;">9901&#8203; Brodie&#8203; Lane,</span> <span class="t-white" style="color:#FFFFFF;text-decoration:none;">Suite&#8203; 160</span> <span class="t-white" style="color:#FFFFFF;text-decoration:none;">PMB&#8203;843,</span><br><span class="t-white" style="color:#FFFFFF;text-decoration:none;">Austin,&#8203; TX</span> <span class="t-white" style="color:#FFFFFF;text-decoration:none;">78&#8203;748</span>
+              </p>
+            </td>
+          </tr>
+
+        </table>
+        <!--[if mso]></td></tr></table><![endif]-->
+
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

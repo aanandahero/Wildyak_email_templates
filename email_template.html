@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+  <!-- DARK MODE OFF: tells Apple Mail / iOS Mail / Outlook to keep the light design -->
+  <meta name="color-scheme" content="light only">
+  <meta name="supported-color-schemes" content="light only">
+  <title>[EMAIL TITLE]</title>
+
+  <!--[if mso]>
+  <noscript><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml></noscript>
+  <style>table,td,div,p,a,span{font-family:Arial,Helvetica,sans-serif !important;}</style>
+  <![endif]-->
+
+  <style>
+  /* Font: Arial everywhere (inline on every element) - installed on all devices and mail clients. */
+
+  /* DARK MODE OFF (1/4): declare light only */
+  :root {
+    color-scheme: light only;
+    supported-color-schemes: light only;
+  }
+
+  html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: #FDF7E8;
+  }
+
+  body {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  table, td {
+    border-collapse: collapse;
+    mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt;
+  }
+
+  img {
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    display: block;
+    height: auto;
+    line-height: 100%;
+    -ms-interpolation-mode: bicubic;
+  }
+
+  a { text-decoration: none; }
+
+  /* Stop iOS / Gmail from recolouring auto-detected links */
+  a[x-apple-data-detectors],
+  .x-gmail-data-detectors,
+  .x-gmail-data-detectors * {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+  }
+
+  /* DARK MODE OFF (2/4): if a client switches to dark, re-force every original colour. */
+  @media (prefers-color-scheme: dark) {
+    html, body, .bg-cream { background-color: #FDF7E8 !important; }
+    .bg-navy   { background-color: #03314B !important; }
+    .bg-yellow { background-color: #FDC13A !important; }
+    .t-blue  { color: #00407F !important; }
+    .t-white { color: #FFFFFF !important; }
+    .t-sky   { color: #3EB6F3 !important; }
+  }
+
+  /* DARK MODE OFF (3/4): Outlook.com / Outlook apps */
+  [data-ogsc] .t-blue  { color: #00407F !important; }
+  [data-ogsc] .t-white { color: #FFFFFF !important; }
+  [data-ogsc] .t-sky   { color: #3EB6F3 !important; }
+  [data-ogsb] .bg-cream  { background-color: #FDF7E8 !important; }
+  [data-ogsb] .bg-navy   { background-color: #03314B !important; }
+  [data-ogsb] .bg-yellow { background-color: #FDC13A !important; }
+
+  /* Fluid by default (width:100%; max-width:600px). These only fine-tune type on phones. */
+  @media only screen and (max-width: 620px) {
+    .container { width: 100% !important; max-width: 100% !important; }
+    .fluid { width: 100% !important; height: auto !important; }
+
+    .intro-sm  { font-size: 26px !important; line-height: 32px !important; }
+    .headline  { font-size: 30px !important; line-height: 38px !important; }
+    .body-copy { font-size: 16px !important; line-height: 24px !important; }
+    .sign      { font-size: 22px !important; line-height: 28px !important; }
+    .pad-text  { padding-left: 22px !important; padding-right: 22px !important; }
+
+    .side   { width: 10px !important; padding: 0 !important; }
+    .paw-h  { display: none !important; width: 0 !important; max-height: 0 !important; mso-hide: all; }
+    .paw    { width: 22px !important; }
+    .btn-a  { font-size: 14px !important; }
+
+    .foot { font-size: 14px !important; line-height: 22px !important; }
+    .site { font-size: 16px !important; }
+  }
+
+  @media only screen and (max-width: 380px) {
+    .intro-sm { font-size: 24px !important; }
+    .headline { font-size: 26px !important; line-height: 34px !important; }
+    .btn-a    { font-size: 13px !important; letter-spacing: 0 !important; }
+  }
+</style>
+</head>
+
+<body class="bg-cream" bgcolor="#FDF7E8" style="margin:0;padding:0;background-color:#FDF7E8;">
+
+  <!--
+  ==========================================================================
+  WILD YAK TRADING CO. - STANDARD EMAIL TEMPLATE
+  ==========================================================================
+  HOW TO USE
+    1. Header (logo + mountains) and footer (art, social, unsubscribe, address)
+       are LOCKED. Do not edit them.
+    2. Build the email between "CONTENT AREA START" and "CONTENT AREA END".
+       Every block there is one self-contained <tr> ... </tr> row.
+       - Add a block:      copy its whole <tr> ... </tr>, paste it where you want it.
+       - Remove a block:   delete its whole <tr> ... </tr>.
+       - Reorder blocks:   cut and paste the rows.
+       - Edit a block:     change only the [PLACEHOLDER] text, links and image URLs.
+    3. Replace the <title> and the PREHEADER text (search for "[").
+    4. Colours: blue #00407F, cream #FDF7E8, yellow #FDC13A, navy #03314B,
+       coral #F47C5C, white #FFFFFF, sky #3EB6F3 (unsubscribe link only).
+    5. Unsubscribe link tag is {{{RESEND_UNSUBSCRIBE_URL}}}
+       (Klaviyo: {% unsubscribe_url %}, Shopify Email: {{ unsubscribe_url }}).
+    6. Images: always set width="600" (or the displayed width) and a real alt.
+       Use hosted https URLs (Shopify Files); email clients cannot load local files.
+  ==========================================================================
+  -->
+
+
+  <!-- Hidden preheader -->
+  <div style="display:none;font-size:1px;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden;mso-hide:all;color:#FDF7E8;">
+    [PREHEADER: one short line that shows next to the subject in the inbox.]
+    &#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;
+  </div>
+
+  <table role="presentation" class="bg-cream" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FDF7E8" style="width:100%;background-color:#FDF7E8;background-image:linear-gradient(#FDF7E8,#FDF7E8);">
+    <tr>
+      <td align="center" class="bg-cream" bgcolor="#FDF7E8" style="padding:0;background-color:#FDF7E8;background-image:linear-gradient(#FDF7E8,#FDF7E8);">
+
+        <!--[if mso]><table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><![endif]-->
+        <table role="presentation" class="container bg-cream" width="600" align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#FDF7E8" style="width:100%;max-width:600px;margin:0 auto;background-color:#FDF7E8;background-image:linear-gradient(#FDF7E8,#FDF7E8);">
+
+          <!-- HEADER (locked) -->
+          <tr>
+            <td style="line-height:0;font-size:0;position:relative;z-index:2;">
+              <a href="https://wildyaktrading.com/" target="_blank" rel="noopener" style="display:block;">
+                <img src="https://cdn.shopify.com/s/files/1/0832/2983/5503/files/Vector_2.png?v=1794296233" class="fluid" width="600" height="537" alt="Wild Yak Trading Co." style="display:block;width:100%;max-width:600px;height:auto;">
+              </a>
+            </td>
+          </tr>
+
+          <!-- ########################################################################
+               CONTENT AREA START  (editable: add, remove, reorder blocks below)
+               ######################################################################## -->
+
+          <!-- ====================================================================
+               BLOCK 1: HERO IMAGE (overlaps the header)
+               Use ONCE, directly under the header. Keep the image 600px wide; set height to match.
+               ==================================================================== -->
+          <tr>
+            <td style="line-height:0;font-size:0;position:relative;z-index:1;">
+              <div style="margin-top:-2.6%;line-height:0;font-size:0;">
+                <a href="https://wildyaktrading.com/" target="_blank" rel="noopener" style="display:block;">
+                  <img src="https://cdn.shopify.com/s/files/1/0832/2983/5503/files/Intro_hero.webp?v=1794294262" class="fluid" width="600" height="389" alt="[Describe the hero image]" style="display:block;width:100%;max-width:600px;height:auto;">
+                </a>
+              </div>
+            </td>
+          </tr>
+
+          <!-- ====================================================================
+               BLOCK 2: HEADLINE (centered)
+               Large blue headline. Mobile size is handled by the .headline class.
+               ==================================================================== -->
+          <tr>
+            <td class="pad-text t-blue" align="center" style="padding:24px 28px 0 28px;font-family:Arial,Helvetica,sans-serif;color:#00407F;">
+              <p class="headline t-blue" style="margin:0;font-size:32px;line-height:40px;font-weight:bold;color:#00407F;">[Headline text]</p>
+            </td>
+          </tr>
+
+          <!-- ====================================================================
+               BLOCK 3: BODY COPY (left aligned)
+               One <p> per paragraph. The LAST <p> keeps margin:0; all others keep margin:0 0 16px 0.
+               ==================================================================== -->
+          <tr>
+            <td class="pad-text t-blue" align="left" style="padding:14px 28px 0 28px;font-family:Arial,Helvetica,sans-serif;color:#00407F;">
+              <p class="body-copy t-blue" style="margin:0 0 16px 0;font-size:18px;line-height:27px;color:#00407F;">[Paragraph one.]</p>
+              <p class="body-copy t-blue" style="margin:0 0 16px 0;font-size:18px;line-height:27px;color:#00407F;">[Paragraph two.]</p>
+              <p class="body-copy t-blue" style="margin:0;font-size:18px;line-height:27px;color:#00407F;">[Last paragraph.]</p>
+            </td>
+          </tr>
+
+          <!-- ====================================================================
+               BLOCK 4: CENTERED TEXT
+               Same type as body copy, centered. Good for short intros, offers and closing lines.
+               ==================================================================== -->
+          <tr>
+            <td class="pad-text t-blue" align="center" style="padding:14px 28px 0 28px;font-family:Arial,Helvetica,sans-serif;color:#00407F;">
+              <p class="body-copy t-blue" style="margin:0;font-size:18px;line-height:27px;color:#00407F;">[Centered text.]</p>
+            </td>
+          </tr>
+
+          <!-- ====================================================================
+               BLOCK 5: FULL-WIDTH IMAGE
+               Edge-to-edge 600px image, no overlap. Remove the <a> wrapper if it should not be clickable.
+               ==================================================================== -->
+          <tr>
+            <td style="padding:18px 0 0 0;line-height:0;font-size:0;">
+              <a href="https://wildyaktrading.com/" target="_blank" rel="noopener" style="display:block;">
+                <img src="https://cdn.shopify.com/s/files/1/0832/2983/5503/files/YOUR-IMAGE.webp" class="fluid" width="600" alt="[Describe the image]" style="display:block;width:100%;max-width:600px;height:auto;">
+              </a>
+            </td>
+          </tr>
+
+          <!-- ====================================================================
+               BLOCK 6: DIVIDER
+               Thin blue line with side margins.
+               ==================================================================== -->
+          <tr>
+            <td style="padding:22px 28px 0 28px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+                <tr><td height="1" style="height:1px;font-size:1px;line-height:1px;border-top:1px solid #00407F;">&nbsp;</td></tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ====================================================================
+               BLOCK 7: SIGNATURE + PAW
+               Centered italic sign-off with the paw icon on the right.
+               ==================================================================== -->
+          <tr>
+            <td style="padding:18px 0 0 0;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+                <tr>
+                  <td class="side" width="40" style="width:40px;font-size:0;line-height:0;">&nbsp;</td>
+                  <td align="center" class="sign t-blue" style="font-family:Arial,Helvetica,sans-serif;font-size:26px;line-height:32px;font-style:italic;font-weight:bold;color:#00407F;">
+                    [Sign-off name]
+                  </td>
+                  <td class="side" width="40" align="center" valign="middle" style="width:40px;padding:0 10px 0 0;">
+                    <img class="paw" src="https://cdn.shopify.com/s/files/1/0832/2983/5503/files/paw.webp?v=1794209268" width="26" alt="" style="display:block;width:26px;height:auto;">
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ====================================================================
+               BLOCK 8: BUTTON (yellow call to action)
+               Change only the href and the label. Keep the label short; it is uppercased automatically.
+               ==================================================================== -->
+          <tr>
+            <td align="center" style="padding:18px 20px 0 20px;">
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0 auto;">
+                <tr>
+                  <td align="center" class="bg-yellow" bgcolor="#FDC13A" style="background-color:#FDC13A;background-image:linear-gradient(#FDC13A,#FDC13A);border-radius:28px;box-shadow:0 3px 7px rgba(0,64,127,0.25);">
+                    <a class="btn-a t-blue" href="https://wildyaktrading.com/" target="_blank" rel="noopener"
+                       style="display:block;padding:16px 36px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:18px;font-weight:800;letter-spacing:0.5px;color:#00407F;text-decoration:none;text-transform:uppercase;white-space:nowrap;border-radius:28px;">
+                      [Button label]&nbsp;&rarr;
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ====================================================================
+               BLOCK 9: SPACER
+               Empty vertical space. Change both 24 values to resize.
+               ==================================================================== -->
+          <tr>
+            <td height="24" style="height:24px;font-size:0;line-height:0;">&nbsp;</td>
+          </tr>
+
+          <!-- ====================================================================
+               BLOCK 10: PAW ACCENT (always the LAST block, sits above the footer art)
+               Bottom-left paw, as in the original design. Keep it last.
+               ==================================================================== -->
+          <tr>
+            <td align="left" style="padding:6px 0 0 36px;line-height:0;font-size:0;">
+              <img class="paw" src="https://cdn.shopify.com/s/files/1/0832/2983/5503/files/paw.webp?v=1794209268" width="26" alt="" style="display:block;width:26px;height:auto;">
+            </td>
+          </tr>
+
+          <!-- ########################################################################
+               CONTENT AREA END  (do not edit anything below: footer is locked)
+               ######################################################################## -->
+
+          <!-- FOOTER (locked): art + footer text, ends on solid navy #03314B -->
+          <tr>
+            <td class="bg-navy" bgcolor="#03314B" style="background-color:#03314B;background-image:linear-gradient(#03314B,#03314B);line-height:0;font-size:0;">
+              <a href="https://wildyaktrading.com/" target="_blank" rel="noopener" style="display:block;">
+                <img src="https://cdn.shopify.com/s/files/1/0832/2983/5503/files/footer-art.webp?v=1794209265" class="fluid" width="600" height="262" alt="Wild Yak Trading Co." style="display:block;width:100%;max-width:600px;height:auto;">
+              </a>
+            </td>
+          </tr>
+
+          <!-- FOOTER TEXT (locked) -->
+          <tr>
+            <td align="center" class="bg-navy t-white" bgcolor="#03314B" style="background-color:#03314B;background-image:linear-gradient(#03314B,#03314B);padding:0 20px 34px 20px;font-family:Arial,Helvetica,sans-serif;color:#FFFFFF;">
+
+              <p class="site t-white" style="margin:0 0 10px 0;font-size:17px;line-height:24px;font-weight:600;color:#FFFFFF;">www.wildyaktrading.com</p>
+
+              <!-- Social icons (order: X, Instagram, Facebook, TikTok) -->
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center">
+                <tr>
+                  <td style="padding:8px 10px;"><a href="https://x.com/wildyaktrading" target="_blank" rel="noopener"><img src="https://cdn.shopify.com/s/files/1/0832/2983/5503/files/icon-x.webp?v=1794209269" width="28" height="28" alt="Wild Yak Trading Co. on X" style="display:block;width:28px;height:28px;"></a></td>
+                  <td style="padding:8px 10px;"><a href="https://www.instagram.com/wildyaktradingco" target="_blank" rel="noopener"><img src="https://cdn.shopify.com/s/files/1/0832/2983/5503/files/icon-instagram.webp?v=1794209270" width="28" height="28" alt="Wild Yak Trading Co. on Instagram" style="display:block;width:28px;height:28px;"></a></td>
+                  <td style="padding:8px 10px;"><a href="https://www.facebook.com/wildyaktrading" target="_blank" rel="noopener"><img src="https://cdn.shopify.com/s/files/1/0832/2983/5503/files/icon-facebook.webp?v=1794209272" width="28" height="28" alt="Wild Yak Trading Co. on Facebook" style="display:block;width:28px;height:28px;"></a></td>
+                  <td style="padding:8px 10px;"><a href="https://www.tiktok.com/@wildyaktrading" target="_blank" rel="noopener"><img src="https://cdn.shopify.com/s/files/1/0832/2983/5503/files/icon-tiktok.webp?v=1794209270" width="28" height="28" alt="Wild Yak Trading Co. on TikTok" style="display:block;width:28px;height:28px;"></a></td>
+                </tr>
+              </table>
+
+              <table role="presentation" width="60%" cellpadding="0" cellspacing="0" border="0" align="center" style="width:60%;margin:10px auto 14px auto;">
+                <tr><td height="1" style="height:1px;font-size:1px;line-height:1px;border-top:1px solid #FFFFFF;">&nbsp;</td></tr>
+              </table>
+
+              <p class="foot t-white" style="margin:0 0 6px 0;font-size:13px;line-height:20px;color:#FFFFFF;">
+                No longer want to receive these emails?
+                <a href="{{unsubscribe_url}}" class="t-sky" target="_blank" rel="noopener" style="color:#3EB6F3;text-decoration:underline;">Unsubscribe</a>
+              </p>
+              <p class="foot t-white" style="margin:0 0 6px 0;font-size:13px;line-height:20px;color:#FFFFFF;">
+                <a href="mailto:support@wildyaktrading.com" class="t-white" style="color:#FFFFFF;text-decoration:none;">support@wildyaktrading.com</a>
+              </p>
+              <p class="foot t-white" style="margin:0;font-size:13px;line-height:20px;color:#FFFFFF;">
+                <span class="t-white" style="color:#FFFFFF;text-decoration:none;">9901&#8203; Brodie&#8203; Lane,</span> <span class="t-white" style="color:#FFFFFF;text-decoration:none;">Suite&#8203; 160</span> <span class="t-white" style="color:#FFFFFF;text-decoration:none;">PMB&#8203;843,</span><br><span class="t-white" style="color:#FFFFFF;text-decoration:none;">Austin,&#8203; TX</span> <span class="t-white" style="color:#FFFFFF;text-decoration:none;">78&#8203;748</span>
+              </p>
+            </td>
+          </tr>
+
+        </table>
+        <!--[if mso]></td></tr></table><![endif]-->
+
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
